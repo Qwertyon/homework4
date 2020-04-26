@@ -22,21 +22,19 @@ body {
   clear: both;
 }
 
-.logo {
-  float: left;
-  height: 42px;
-}
 .link-of-logo {
   text-decoration: none;
   font-size: 30px;
+  display: inline-block;
   line-height: 42px;
   font-family: "Roboto";
   letter-spacing: -1px;
   color: #555252;
   font-weight: 300;
+  float: left;
 }
 
-.logo::first-letter {
+.link-of-logo::first-letter {
   color: #1abc9c;
   font-weight: 900;
 }
@@ -59,10 +57,13 @@ body {
 .links-of-navigation {
   text-decoration: none;
   font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 11px;
+  color: #0f0101;
   font-family: "Open Sans";
   font-weight: 700;
-  letter-spacing: 0px;
 }
+
 .links-of-navigation:hover {
   color: #1abc9c;
 }
@@ -124,28 +125,30 @@ body {
   width: 255px;
   box-sizing: border-box;
   height: 40px;
-  font-family: "Roboto";
-  font-weight: 900;
-  letter-spacing: 0px;
-  font-size: 18px;
 }
 .product-name {
   width: 200px;
   box-sizing: border-box;
   display: inline-block;
   height: 40px;
-  font-size: 18px;
-  letter-spacing: 0px;
   background-color: #323232;
   line-height: 40px;
   padding-left: 12px;
+  font-family: "Roboto";
+  font-weight: 900;
+  letter-spacing: 0px;
+  font-size: 18px;
 }
 
 .price {
   width: 55px;
   height: 40px;
   float: right;
+  font-family: "Roboto";
+  font-weight: 900;
   text-align: center;
+  font-size: 18px;
+  letter-spacing: 0px;
   line-height: 40px;
   background-color: rgba(255, 255, 255, 0.5);
 }
