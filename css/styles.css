@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1110px;
+  margin: 35px auto 45px auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.logo {
+  float: left;
+  height: 42px;
+}
+.link-of-logo {
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "Roboto";
+  letter-spacing: -1px;
+  color: #555252;
+  font-weight: 300;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.site-navigation {
+  float: right;
+  width: 472px;
+  height: 42px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  vertical-align: middle;
+}
+.menu-item {
+  display: inline-block;
+  margin: 12px 27px 0px 0px;
+}
+.menu-item:nth-last-child(1) {
+  margin-right: 0px;
+}
+.links-of-navigation {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+.links-of-navigation:hover {
+  color: #1abc9c;
+}
+
+.header {
+  margin-bottom: 102px;
+}
+
+.title-of-products {
+  text-align: center;
+  height: 83px;
+  box-sizing: border-box;
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #515151;
+  font-family: "Roboto";
+  font-weight: 900;
+  padding-top: 13px;
+  margin-bottom: 86px;
+}
+
+.title-of-products::after {
+  content: "";
+  display: inline-block;
+  background-color: #1abc9c;
+  height: 8px;
+  width: 164px;
+  margin: 0px 472px 0px 472px;
+}
+
+.products {
+  float: left;
+  margin: 0px 30px 30px 0px;
+  width: 255px;
+  height: 322px;
+  vertical-align: middle;
+}
+
+.link-of-product {
+  text-decoration: none;
+  color: #ffffff;
+}
+.products:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.product-image {
+  width: 255px;
+  height: 282px;
+  display: inline-block;
+  margin-bottom: -4px;
+  background-color: #e9f0fd;
+}
+
+.container-for-product-name {
+  background-color: #323232;
+  color: #ffffff;
+  width: 255px;
+  box-sizing: border-box;
+  height: 40px;
+  font-family: "Roboto";
+  font-weight: 900;
+  letter-spacing: 0px;
+  font-size: 18px;
+}
+.product-name {
+  width: 200px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  background-color: #323232;
+  line-height: 40px;
+  padding-left: 12px;
+}
+
+.price {
+  width: 55px;
+  height: 40px;
+  float: right;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.products:hover .product-name {
+  background-color: #1abc9c;
+}
+.products:hover .price {
+  background-color: #1abc9c;
+}
+
+.first-section {
+  margin-bottom: 57px;
+}
+
+.title-of-news {
+  text-align: center;
+  height: 83px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #555252;
+  font-family: "Roboto";
+  font-weight: 900;
+  padding-top: 14px;
+}
+
+.title-of-news::after {
+  content: "";
+  display: inline-block;
+  background-color: #4ec6ab;
+  height: 7px;
+  width: 164px;
+  margin: 28px 472px 0px 472px;
+}
+.news {
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+  height: 498px;
+}
+
+.news:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.news-image {
+  margin-bottom: 10px;
+  display: block;
+  width: 350px;
+  height: 261px;
+}
+
+.news-subtitle {
+  height: 64px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.news-subtitle::after {
+  display: block;
+  content: "";
+  width: 136px;
+  height: 3px;
+  background-color: #4ec6ab;
+  margin-top: 8px;
+}
+
+.news-text {
+  height: 80px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 400;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  width: 159px;
+  height: 51px;
+  border: 3px;
+  border-radius: 3px;
+  background-color: #4ec6ab;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 51px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
